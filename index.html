@@ -63,17 +63,22 @@
     </div>
   </div>
 
-  <div class="BMI">
+  <div class="1">
     <div>
       <p class="margin0">GENERATOR HASEŁ</p>
       <input placeholder="Podaj liczbe:" id="liczba" type="text" name="text">
       <input onclick="haslo()" type="submit">
       <p id="haslo"></p>
     </div>
+
+    <div class="2">
+      <p>KALKULATOR BMI</p>
+      <input placeholder="Podaj wzrost w metrach:" id="wzrost" type="text" name="text">
+      <input placeholder="Podaj wagę w kilogramach:" id="masa" type="text" name="text">
+      <input onclick="bmi()" type="submit">
+      <p id="bmi"></p>
+    </div>
   </div>
-
-
-  <p id="bmi"></p>
 </div>
 
 <script src="script/PassGenerator.js"></script>
