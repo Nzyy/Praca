@@ -29,39 +29,52 @@
 
 <br>
 
-<div class="ekranik">
-  <span id="Dzialania"></span>
+<div class="itemy">
+  <div class="Calc">
+    <div class="ekranik">
+      <span id="Dzialania"></span>
+    </div>
+    <div class="A">
+      <button class="ButtonSize" onclick="Calc1()" type="button" name="button">1</button>
+      <button class="ButtonSize" onclick="Calc2()" type="button" name="button">2</button>
+      <button class="ButtonSize" onclick="Calc3()" type="button" name="button">3</button>
+    </div>
+
+    <div class="B">
+      <button class="ButtonSize" onclick="Calc4()" type="button" name="button">4</button>
+      <button class="ButtonSize" onclick="Calc5()" type="button" name="button">5</button>
+      <button class="ButtonSize" onclick="Calc6()" type="button" name="button">6</button>
+    </div>
+
+    <div class="C">
+      <button class="ButtonSize" onclick="Calc7()" type="button" name="button">7</button>
+      <button class="ButtonSize" onclick="Calc8()" type="button" name="button">8</button>
+      <button class="ButtonSize" onclick="Calc9()" type="button" name="button">9</button>
+    </div>
+
+    <div class="D">
+      <button class="ButtonSize" onclick="Calc0()" type="button" name="button">0</button>
+      <button class="ButtonSize" onclick="CalcPLUS()" type="button" name="button">+</button>
+      <button class="ButtonSize" onclick="CalcResult()" type="button" name="button">=</button>
+    </div>
+  </div>
+
+  <div class="BMI">
+    <div>
+      <p class="margin0">GENERATOR HASEŁ</p>
+      <input id="liczba" type="text" name="text">
+      <input onclick="haslo()" type="submit">
+      <p id="haslo"></p>
+    </div>
+  </div>
+
+
+  <p id="bmi"></p>
 </div>
-
-<div class="Calc">
-  <div class="A">
-    <button class="ButtonSize" onclick="Calc1()" type="button" name="button">1</button>
-    <button class="ButtonSize" onclick="Calc2()" type="button" name="button">2</button>
-    <button class="ButtonSize" onclick="Calc3()" type="button" name="button">3</button>
-  </div>
-
-  <div class="B">
-    <button class="ButtonSize" onclick="Calc4()" type="button" name="button">4</button>
-    <button class="ButtonSize" onclick="Calc5()" type="button" name="button">5</button>
-    <button class="ButtonSize" onclick="Calc6()" type="button" name="button">6</button>
-  </div>
-
-  <div class="C">
-    <button class="ButtonSize" onclick="Calc7()" type="button" name="button">7</button>
-    <button class="ButtonSize" onclick="Calc8()" type="button" name="button">8</button>
-    <button class="ButtonSize" onclick="Calc9()" type="button" name="button">9</button>
-  </div>
-
-  <div class="D">
-    <button class="ButtonSize" onclick="Calc0()" type="button" name="button">0</button>
-    <button class="ButtonSize" onclick="CalcPLUS()" type="button" name="button">+</button>
-    <button class="ButtonSize" onclick="CalcResult()" type="button" name="button">=</button>
-  </div>
-</div>
-
 
 <script src="script/PassGenerator.js"></script>
 <script src="script/Kalkulator.js"></script>
 <script src="script/Kalendarz.js"></script>
+<script src="script/BMI.js"></script>
 </body>
 </html>
