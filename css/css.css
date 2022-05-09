@@ -1,0 +1,34 @@
+.justify {
+  text-align: center;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.Data, .Godzina {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.A, .B, .C, .D {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Calc {
+  height: auto
+}
+
+.ButtonSize {
+  height: 80px;
+  width: 80px;
+  background: #000;
+  border: 0.1px solid rgba(100, 100, 100, 100);
+  color: white;
+  font-size: 60px;
+}
+
+.ekranik {
+  height: 34px;
+  width: 240px;
+  background: grey;
+}
