@@ -1,46 +1,67 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
- <head>
-   <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="css/body.css">
-    <link rel="stylesheet" href="css/style.css">
-      <title>Kalkulator</title>
+    <link rel="stylesheet" href="css/css.css">
+    <title></title>
   </head>
-<body>
-<div class="cos">
-<div class="ekranik"><button class="zaawansowane">≡</div>
-  <div class="Kalkulator">
-    <div class="a">
-      <button class="blue" type="button">c</button>
-      <button class="cyferki" type="button">1</button>
-      <button class="cyferki" type="button">4</button>
-      <button class="cyferki" type="button">7</button>
-      <button class="inne" type="button">%</button>
-    </div>
+  <body>
+<h1 class="justify">Dzień dobry sorko</h1>
 
-    <div class="b">
-      <button class="blue" type="button">/</button>
-      <button class="cyferki" type="button">2</button>
-      <button class="cyferki" type="button">5</button>
-      <button class="cyferki" type="button">8</button>
-      <button class="cyferki" type="button">0</button>
-    </div>
+<div class="Data">
+  <span>Dzisiejsza data:&nbsp;</span>
+  <span id="TodayDate"></span>
+  <span>.</span>
+  <span id="TodayMonth"></span>
+  <span>.</span>
+  <span id="TodayDay"></span>
+</div>
 
-    <div class="c">
-      <button class="blue" type="button">×</button>
-      <button class="cyferki" type="button">3</button>
-      <button class="cyferki" type="button">6</button>
-      <button class="cyferki" type="button">9</button>
-      <button class="inne" type="button">,</button>
+<div class="Godzina">
+  <span>Dzisiejsza godzina:&nbsp;</span>
+  <span id="TodayHour"></span>
+  <span>:</span>
+  <span id="TodayMinute"></span>
+  <span>:</span>
+  <span id="TodaySecond"></span>
+</div>
+
+<br>
+
+<div class="ekranik">
+  <span id="Dzialania"></span>
+</div>
+
+<div class="Calc">
+  <div class="A">
+    <button class="ButtonSize" onclick="Calc1()" type="button" name="button">1</button>
+    <button class="ButtonSize" onclick="Calc2()" type="button" name="button">2</button>
+    <button class="ButtonSize" onclick="Calc3()" type="button" name="button">3</button>
   </div>
 
-    <div class="d">
-      <button class="blue" type="button">←</button>
-      <button class="blue" type="button">+</button>
-      <button class="blue" type="button">-</button>
-      <button class="znak" type="button">=</button>
-    </div>
+  <div class="B">
+    <button class="ButtonSize" onclick="Calc4()" type="button" name="button">4</button>
+    <button class="ButtonSize" onclick="Calc5()" type="button" name="button">5</button>
+    <button class="ButtonSize" onclick="Calc6()" type="button" name="button">6</button>
+  </div>
+
+  <div class="C">
+    <button class="ButtonSize" onclick="Calc7()" type="button" name="button">7</button>
+    <button class="ButtonSize" onclick="Calc8()" type="button" name="button">8</button>
+    <button class="ButtonSize" onclick="Calc9()" type="button" name="button">9</button>
+  </div>
+
+  <div class="D">
+    <button class="ButtonSize" onclick="Calc0()" type="button" name="button">0</button>
+    <button class="ButtonSize" onclick="CalcPLUS()" type="button" name="button">+</button>
+    <button class="ButtonSize" onclick="CalcResult()" type="button" name="button">=</button>
   </div>
 </div>
+
+
+<script src="script/PassGenerator.js"></script>
+<script src="script/Kalkulator.js"></script>
+<script src="script/Kalendarz.js"></script>
 </body>
 </html>
