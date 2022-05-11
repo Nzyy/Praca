@@ -39,43 +39,50 @@
       <span id="Dzialania"></span>
     </div>
     <div class="A">
-      <button class="ButtonSize" onclick="Calc1()" type="button" name="button">1</button>
-      <button class="ButtonSize" onclick="Calc2()" type="button" name="button">2</button>
-      <button class="ButtonSize" onclick="Calc3()" type="button" name="button">3</button>
+      <button class="Buttons" onclick="Calc1()">1</button>
+      <button class="Buttons" onclick="Calc2()">2</button>
+      <button class="Buttons" onclick="Calc3()">3</button>
+      <button class="Buttons" onclick="Calc()">:</button>
+      <button class="Buttons" onclick="CalcC()">C</button>
     </div>
 
     <div class="B">
-      <button class="ButtonSize" onclick="Calc4()" type="button" name="button">4</button>
-      <button class="ButtonSize" onclick="Calc5()" type="button" name="button">5</button>
-      <button class="ButtonSize" onclick="Calc6()" type="button" name="button">6</button>
+      <button class="Buttons" onclick="Calc4()">4</button>
+      <button class="Buttons" onclick="Calc5()">5</button>
+      <button class="Buttons" onclick="Calc6()">6</button>
+      <button class="Buttons" onclick="CalcResult()">x</button>
+
     </div>
 
     <div class="C">
-      <button class="ButtonSize" onclick="Calc7()" type="button" name="button">7</button>
-      <button class="ButtonSize" onclick="Calc8()" type="button" name="button">8</button>
-      <button class="ButtonSize" onclick="Calc9()" type="button" name="button">9</button>
+      <button class="Buttons" onclick="Calc7()">7</button>
+      <button class="Buttons" onclick="Calc8()">8</button>
+      <button class="Buttons" onclick="Calc9()">9</button>
+      <button class="Buttons" onclick="CalcResult()">-</button>
+
     </div>
 
     <div class="D">
-      <button class="ButtonSize" onclick="Calc0()" type="button" name="button">0</button>
-      <button class="ButtonSize" onclick="CalcPLUS()" type="button" name="button">+</button>
-      <button class="ButtonSize" onclick="CalcResult()" type="button" name="button">=</button>
+      <button class="Buttons" onclick="Calc0()">0</button>
+      <button class="Buttons" onclick="CalcDot()">.</button>
+      <button class="Buttons" onclick="CalcPLUS()">+</button>
+      <button class="Buttons" onclick="CalcResult()">=</button>
     </div>
   </div>
 
-  <div class="1">
+  <div class="fir">
     <div>
       <p class="margin0">GENERATOR HASEŁ</p>
-      <input placeholder="Podaj liczbe:" id="liczba" type="text" name="text">
-      <input onclick="haslo()" type="submit">
+      <input style="color: white;" class="SubmitButton" placeholder="Podaj ilość znaków:" id="liczba" type="text" name="text">
+      <input class="SubmitButton" onclick="haslo()" type="submit">
       <p id="haslo"></p>
     </div>
 
     <div class="2">
       <p>KALKULATOR BMI</p>
-      <input placeholder="Podaj wzrost w metrach:" id="wzrost" type="text" name="text">
-      <input placeholder="Podaj wagę w kilogramach:" id="masa" type="text" name="text">
-      <input onclick="bmi()" type="submit">
+      <input class="SubmitButton" placeholder="Podaj wzrost (m):" id="wzrost" type="text" name="text">
+      <input class="SubmitButton" placeholder="Podaj wagę (kg):" id="masa" type="text" name="text">
+      <input class="SubmitButton" class="" onclick="bmi()" type="submit">
       <p id="bmi"></p>
     </div>
   </div>
@@ -85,14 +92,11 @@
 <script src="script/Kalkulator.js"></script>
 <script src="script/Kalendarz.js"></script>
 <script src="script/BMI.js"></script>
-    
-<footer>
-<a href="https://tzwel.xyz/">Dominik</a>
-<br>
-<a href="https://pizdunia.netlify.app/">Zuzix</a>
-<br>
-<a href="">Kamilek</a>
-</footer>
 
+<footer>
+  <a href="https://tzwel.xyz/"><u>Dominik</u>&nbsp</a>
+  <a href="https://pizdunia.netlify.app/"><u>Zuzix</u>&nbsp</a>
+  <a href=""><u>Kamilek</u></a>
+</footer>
 </body>
 </html>
