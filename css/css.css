@@ -9,29 +9,52 @@
 }
 
 .Calc {
-  padding-right: 5rem
+  border: 0.1px solid white;
+  height: 353px;
 }
 
-.ButtonSize {
+.Buttons {
   height: 80px;
-  width: 80px;
+  width: 60px;
   background: #000;
-  border: 0.1px solid rgba(100, 100, 100, 100);
+  border: 0.1px solid;
   color: white;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .ekranik {
   height: 34px;
-  width: 240px;
+  width: 300px;
   background: grey;
 }
 
 .itemy {
   display: flex;
-
 }
 
 .margin0 {
   margin: 0;
+}
+
+.SubmitButton {
+  border-radius: 3px;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  border: 0;
+  }
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+}
+
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: rgb(0, 60, 255);
+}
+
+.fir {
+  padding-left: 5rem;
 }
