@@ -39,9 +39,33 @@ document.getElementById("Dzialania").innerHTML+="9"
 }
 
 function CalcPLUS() {
-var Wartosc1 = document.querySelector("#Dzialania").innerHTML
-Liczba1 += parseInt(Wartosc1)
-document.getElementById("Dzialania").innerHTML=""
+  if (document.querySelector("#Dzialania").innerHTML == "") {
+} else {
+    var Wartosc1 = document.querySelector("#Dzialania").innerHTML
+    Liczba1 += parseInt(Wartosc1)
+    document.getElementById("Dzialania").innerHTML=""
+  }
+}
+
+function CalcMINUS() {
+}
+
+function CalcMULTIPLY() {
+}
+
+function CalcDIVIDE() {
+}
+
+function CalcC() {
+var Wartosc = document.querySelector("#Dzialania").innerHTML
+if (Wartosc == "") {
+  } else {
+  var Wartosc = (Wartosc.slice(0, -1))
+  document.getElementById("Dzialania").innerHTML=Wartosc
+  }
+}
+
+function CalcDot() {
 }
 
 function CalcResult() {
