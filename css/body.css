@@ -1,7 +1,7 @@
 body {
-  font-family: 'Century Gothic';
+  font-family: sans-serif;
   margin: 0;
-  background: black;
+  background: rgba(22, 22, 22);
   color: white;
   font-size: 2rem;
 }
