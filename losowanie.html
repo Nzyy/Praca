@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/body.css">
+  <link rel="stylesheet" href="css/przyciski.css">
+  <link rel="stylesheet" href="css/tabele.css">
+  <link rel="stylesheet" href="css/css.css">
+  <title>Generator liczb</title>
+</head>
+<body>
+<a href="index.html">Strona główna</a>
+
+<div style="display: flex; justify-content: center;">
+  <input style="background: blue; color: white;" placeholder="Od:" id="od" type="number">
+  <input style="background: blue; color: white;" placeholder="Od:" id="do" type="number">
+  <button style="width: 80px; height: 40px; color: blue; font-size: 20px; border-radius: 6px;" type="submit" onclick="losowanie()">Losuj</button>
+</div>
+<br>
+<p style="text-align: center; margin: 0;">Wylosowane liczby:</p>
+  <table>
+    <tr>
+      <td id="1">b/d</td>
+      <td id="2">b/d</td>
+      <td id="3">b/d</td>
+      <td id="4">b/d</td>
+      <td id="5">b/d</td>
+    </tr>
+    <tr>
+      <td id="6" >b/d</td>
+      <td id="7" >b/d</td>
+      <td id="8" >b/d</td>
+      <td id="9" >b/d</td>
+      <td id="10" >b/d</td>
+    </tr>
+  </table>
+
+<script src="script/Losowanie.js">
+</script>
+</body>
+</html>
