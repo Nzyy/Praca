@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/przyciski.css">
     <link rel="stylesheet" href="css/css.css">
     <title>susowa</title>
   </head>
@@ -39,34 +40,34 @@
       <span id="Dzialania"></span>
     </div>
     <div class="A">
-      <button class="Buttons" onclick="Calc1()">1</button>
-      <button class="Buttons" onclick="Calc2()">2</button>
-      <button class="Buttons" onclick="Calc3()">3</button>
-      <button style="color: red" class="Buttons" onclick="CalcDIVIDE()">:</button>
-      <button class="Buttons" onclick="CalcC()">C</button>
+      <button onclick="Calc1()">1</button>
+      <button onclick="Calc2()">2</button>
+      <button onclick="Calc3()">3</button>
+      <button style="color: red" onclick="CalcDIVIDE()">:</button>
+      <button onclick="CalcC()">C</button>
     </div>
 
     <div class="B">
-      <button class="Buttons" onclick="Calc4()">4</button>
-      <button class="Buttons" onclick="Calc5()">5</button>
-      <button class="Buttons" onclick="Calc6()">6</button>
-      <button style="color: red" class="Buttons" onclick="CalcMULTIPLY()">x</button>
+      <button onclick="Calc4()">4</button>
+      <button onclick="Calc5()">5</button>
+      <button onclick="Calc6()">6</button>
+      <button style="color: red" onclick="CalcMULTIPLY()">x</button>
 
     </div>
 
     <div class="C">
-      <button class="Buttons" onclick="Calc7()">7</button>
-      <button class="Buttons" onclick="Calc8()">8</button>
-      <button class="Buttons" onclick="Calc9()">9</button>
-      <button style="color: red" class="Buttons" onclick="CalcMINUS()">-</button>
+      <button onclick="Calc7()">7</button>
+      <button onclick="Calc8()">8</button>
+      <button onclick="Calc9()">9</button>
+      <button style="color: red" onclick="CalcMINUS()">-</button>
 
     </div>
 
     <div class="D">
-      <button class="Buttons" onclick="Calc0()">0</button>
-      <button style="color: red" class="Buttons" onclick="CalcDot()">.</button>
-      <button class="Buttons" onclick="CalcPLUS()">+</button>
-      <button class="Buttons" onclick="CalcResult()">=</button>
+      <button onclick="Calc0()">0</button>
+      <button style="color: red" onclick="CalcDot()">.</button>
+      <button onclick="CalcPLUS()">+</button>
+      <button onclick="CalcResult()">=</button>
     </div>
   </div>
 
@@ -85,12 +86,7 @@
       <input class="SubmitButton" class="" onclick="bmi()" type="submit">
       <p id="bmi"></p>
     </div>
-    
-    <div>
-      <input class="SubmitButton" placeholder="Od:" id="od" type="text" name="text">
-      <input class="SubmitButton" placeholder="Do:" id="do" type="text" name="text">
-      <input class="SubmitButton" class="" onclick="losowanie()" type="submit">
-    </div>
+    <a href="losowanie.html">Generator liczb</a>
   </div>
 </div>
 
@@ -98,7 +94,6 @@
 <script src="script/Kalkulator.js"></script>
 <script src="script/Kalendarz.js"></script>
 <script src="script/BMI.js"></script>
-<script src="script/Losowanie.js"></script>
 
 <footer>
   <a href="https://tzwel.xyz/"><u>Dominik</u>&nbsp</a>
