@@ -1,0 +1,16 @@
+button {
+  height: 80px;
+  width: 60px;
+  background: #000;
+  border: 0.1px solid;
+  color: white;
+  font-size: 50px;
+}
+
+input {
+  border-radius: 6px;
+}
+
+input::placeholder {
+  color: white
+}
