@@ -38,6 +38,31 @@ if (start == "") {
         if (document.getElementById(a).innerHTML != "b/d") {
         } else {
           document.getElementById(a).innerHTML=Tab[parseInt(WL)]
+          if (a == 10) {
+              document.getElementById("ocena").innerHTML="Poproszę o 6 sorko <3"
+              document.getElementById("ab").innerHTML="⠄⠄⡌⠄⢰⠉⢙⢗⣲⡖⡋⢐⡺⡄⠈⢆⠄⠄⠄"
+              document.getElementById("ac").innerHTML="⠄⡜⠄⢀⠆⢠⣿⣿⣿⣿⢡⢣⢿⡱⡀⠈⠆⠄⠄"
+              document.getElementById("ad").innerHTML="⠄⠧⠤⠂⠄⣼⢧⢻⣿⣿⣞⢸⣮⠳⣕⢤⡆⠄⠄"
+              document.getElementById("ae").innerHTML="⢺⣿⣿⣶⣦⡇⡌⣰⣍⠚⢿⠄⢩⣧⠉⢷⡇⠄⠄"
+              document.getElementById("af").innerHTML="⠘⣿⣿⣯⡙⣧⢎⢨⣶⣶⣶⣶⢸⣼⡻⡎⡇⠄⠄"
+              document.getElementById("ag").innerHTML="⠄⠘⣿⣿⣷⡀⠎⡮⡙⠶⠟⣫⣶⠛⠧⠁⠄⠄⠄"
+              document.getElementById("ah").innerHTML="⠄⠄⠘⣿⣿⣿⣦⣤⡀⢿⣿⣿⣿⣄⠄⠄⠄⠄⠄"
+              document.getElementById("ai").innerHTML="⠄⠄⠄⠈⢿⣿⣿⣿⣿⣷⣯⣿⣿⣷⣾⣿⣷⡄⠄"
+              document.getElementById("aj").innerHTML="⠄⠄⠄⠄⠄⢻⠏⣼⣿⣿⣿⣿⡿⣿⣿⣏⢾⠇⠄"
+              document.getElementById("ak").innerHTML="⠄⠄⠄⠄⠄⠈⡼⠿⠿⢿⣿⣦⡝⣿⣿⣿⠷⢀⠄"
+              document.getElementById("al").innerHTML="⠄⠄⠄⠄⠄⠄⡇⠄⠄⠄⠈⠻⠇⠿⠋⠄⠄⢘⡆"
+              document.getElementById("am").innerHTML="⠄⠄⠄⠄⠄⠄⠱⣀⠄⠄⠄⣀⢼⡀⠄⢀⣀⡜⠄"
+              document.getElementById("an").innerHTML="⠄⠄⠄⠄⠄⠄⠄⢸⣉⠉⠉⠄⢀⠈⠉⢏⠁⠄⠄"
+              document.getElementById("ao").innerHTML="⠄⠄⠄⠄⠄⠄⡰⠃⠄⠄⠄⠄⢸⠄⠄⢸⣧⠄⠄"
+              document.getElementById("au").innerHTML="⠄⠄⠄⠄⠄⣼⣧⠄⠄⠄⠄⠄⣼⠄⠄⡘⣿⡆⠄"
+              document.getElementById("ap").innerHTML="⠄⠄⠄⢀⣼⣿⡙⣷⡄⠄⠄⠄⠃⠄⢠⣿⢸⣿⡀"
+              document.getElementById("ar").innerHTML="⠄⠄⢀⣾⣿⣿⣷⣝⠿⡀⠄⠄⠄⢀⡞⢍⣼⣿⠇"
+              document.getElementById("as").innerHTML="⠄⠄⣼⣿⣿⣿⣿⣿⣷⣄⠄⠄⠠⡊⠴⠋⠹⡜⠄"
+              document.getElementById("at").innerHTML="⠄⠄⣿⣿⣿⣿⣿⣿⣿⣿⡆⣤⣾⣿⣿⣧⠹⠄⠄"
+              document.getElementById("auu").innerHTML="⠄⠄⢿⣿⣿⣿⣿⣿⣿⣿⢃⣿⣿⣿⣿⣿⡇⠄⠄"
+              document.getElementById("aw").innerHTML="⠄⠄⠐⡏⠉⠉⠉⠉⠉⠄⢸⠛⠿⣿⣿⡟⠄⠄⠄"
+              document.getElementById("ax").innerHTML="⠄⠄⠄⠹⡖⠒⠒⠒⠒⠊⢹⠒⠤⢤⡜⠁⠄⠄⠄"
+          }
           break
         }
         }
