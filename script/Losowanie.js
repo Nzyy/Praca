@@ -1,5 +1,5 @@
 function losowanie() {
-var od = document.getElementById("od").value
+var od = document.getElementById("do").value
 alert(od)
 
 }
