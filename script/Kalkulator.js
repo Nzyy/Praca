@@ -69,8 +69,13 @@ function CalcDot() {
 }
 
 function CalcResult() {
+
+
 var Wartosc2 = document.querySelector("#Dzialania").innerHTML
+if (Wartosc2 == "") {
+
+  } else {
 Liczba2 += parseInt(Wartosc2)
 Wynik = (Liczba1 + Liczba2)
 document.getElementById("Dzialania").innerHTML=Wynik
-}
+}}
