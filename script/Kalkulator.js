@@ -1,13 +1,13 @@
+var Wynik = 0
+
 function Calc(Liczba) {
 document.getElementById("Dzialania").innerHTML+=Liczba
 }
 
 function CalcPLUS() {
-  if (document.querySelector("#Dzialania").innerHTML == "") {
-} else {
-    var Wartosc1 = document.querySelector("#Dzialania").innerHTML
-    Liczba1 += parseInt(Wartosc1)
-    document.getElementById("Dzialania").innerHTML=""
+if (document.querySelector("#Dzialania").innerHTML != "") {
+  Wynik = Wynik + parseInt(document.querySelector("#Dzialania").innerHTML)
+  document.getElementById("Dzialania").innerHTML=""
   }
 }
 
@@ -21,25 +21,22 @@ function CalcDIVIDE() {
 }
 
 function CalcC() {
-var Wartosc = document.querySelector("#Dzialania").innerHTML
-if (Wartosc == "") {
-  } else {
-  var Wartosc = (Wartosc.slice(0, -1))
-  document.getElementById("Dzialania").innerHTML=Wartosc
+  var Ekran = document.getElementById("Dzialania").innerHTML
+  document.getElementById("Dzialania").innerHTML=Ekran.slice(0, -1)
   }
-}
 
 function CalcDot() {
+//   if (document.getElementById("Dzialania").innerHTML != "") {
+//     if (document.getElementById("Dzialania").innerHTML.includes(".") == false) {
+//     document.getElementById("Dzialania").innerHTML+="."
+// }
+// }
 }
 
 function CalcResult() {
-
-
-var Wartosc2 = document.querySelector("#Dzialania").innerHTML
-if (Wartosc2 == "") {
-
-  } else {
-Liczba2 += parseInt(Wartosc2)
-Wynik = (Liczba1 + Liczba2)
-document.getElementById("Dzialania").innerHTML=Wynik
+if (document.getElementById("Dzialania").innerHTML != "") {
+  Wynik = Wynik + parseInt(document.getElementById("Dzialania").innerHTML)
+  document.getElementById("Dzialania").innerHTML=Wynik
+} else {
+  document.getElementById("Dzialania").innerHTML=Wynik
 }}
